@@ -7671,5 +7671,20 @@ display: none;
 /* Customize the color for each social media icon */
 .fa-facebook-f { color: #3b5998; } /* Facebook blue */
 .fa-youtube { color: red; } /* youtube red */
-.fa-instagram { color: #bc2a8d; } /* Instagram pink 
+.fa-instagram { color: #bc2a8d; } 
 
+
+/* Clients image */
+.responsive-image {
+  max-width: 100%; 
+  height: auto; 
+  margin-top: 40px; 
+  
+}
+
+/* Apply margin-left only for screens larger than a certain width */
+@media screen and (min-width: 1200px) {
+  .responsive-image {
+    margin-left: 5%; /* Adjust as needed */
+  }
+}
