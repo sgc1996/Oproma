@@ -690,24 +690,6 @@
                                     <!-- Single Team End -->
                                 </div>
 
-                                <div class="col-lg-4 col-md-5" data-aos="fade-up" data-aos-delay="300">
-                                    <!-- Single Team Start -->
-                                    <div class="single-team">
-                                        <div class="team-image">
-                                            <img src="assets/images/team/team-6.png" width="224" height="224" alt="Team">
-                                        </div>
-                                        <div class="team-content">
-                                            <h4 class="title">Ms. Vinuri Jayasooriya</h4>
-                                            <p>HR Executive</p>
-                                        </div>
-                                        <img src="assets/images/shape/shape-4.webp" class="shape" alt="Shape">
-                                        <div class="description">•	External Pharmacists Course (Reading)<br>
-                                            •	BA (External) in Business Management at University of Sri Jayawardhanapura.
-                                            </div>
-                                    </div>
-                                    <!-- Single Team End -->
-                                </div>
-
 
                                   <!-- Third Raw Start -->
 
@@ -818,25 +800,23 @@
                                     <!-- Single Team End -->
                                 </div>
 
+
+                                
                                 <div class="col-lg-4 col-md-5" data-aos="fade-up" data-aos-delay="300">
                                     <!-- Single Team Start -->
                                     <div class="single-team">
                                         <div class="team-image">
-                                            <img src="assets/images/team/team-13.png" width="224" height="224" alt="Team">
+                                            <img src="assets/images/team/team-14.png" width="224" height="224" alt="Team">
                                         </div>
                                         <div class="team-content">
-                                            <h4 class="title">Mr. Ikshura Malalasekara  </h4>
-                                            <p>Sales and Brand Executive</p>
+                                            <h4 class="title">Ms. Aruni Umesha </h4>
+                                            <p>HR Executive</p>
                                         </div>
                                         <img src="assets/images/shape/shape-4.webp" class="shape" alt="Shape">
                                         
                                     </div>
                                     <!-- Single Team End -->
                                 </div>
-
-
-                                
-
                             </div>
 
                         </div>
@@ -985,6 +965,59 @@
             <!-- Gallery End -->
 
 
+             <!-- Gallery Start -->
+<div class="section section-padding about-section">
+    <!-- Section Title Start -->
+    <div class="section-title text-center">
+        <h6 class="sub-title">Gallery</h6>
+        <h2 class="title">Our Events Memories and Gallery</h2>
+        <p></p>
+    </div>
+    <!-- Section Title End -->
+
+    <div class="gallery-container">
+        <!-- Main Displayed Image -->
+        <div class="main-image">
+            <img src="assets/images/gallery/slider/g-1.jpg" />
+        </div>
+
+        <!-- Thumbnail Images -->
+<div class="thumbnail-images">
+    <img src="assets/images/gallery/slider/g-2.jpg" class="thumbnail" id="thumbnail-1" />
+    <img src="assets/images/gallery/slider/g-3.jpg" class="thumbnail" id="thumbnail-2" />
+    <img src="assets/images/gallery/slider/g-4.jpg" class="thumbnail" id="thumbnail-3" />
+    <img src="assets/images/gallery/slider/g-5.jpg" class="thumbnail" id="thumbnail-4" />
+    <img src="assets/images/gallery/slider/g-6.jpg" class="thumbnail" id="thumbnail-5" />
+    <img src="assets/images/gallery/slider/g-7.jpg" class="thumbnail" id="thumbnail-6" />
+    <img src="assets/images/gallery/slider/g-8.jpg" class="thumbnail" id="thumbnail-3" />
+    <img src="assets/images/gallery/slider/g-9.jpg" class="thumbnail" id="thumbnail-4" />
+    <img src="assets/images/gallery/slider/g-10.jpg" class="thumbnail" id="thumbnail-5" />
+    <img src="assets/images/gallery/slider/g-11.jpg" class="thumbnail" id="thumbnail-6" />
+</div>
+
+    </div>
+</div>
+<!-- Gallery End -->
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // Get all thumbnail images
+        var thumbnails = document.querySelectorAll('.thumbnail');
+        // Get the main image container
+        var mainImage = document.querySelector('.main-image img');
+
+        // Loop through each thumbnail
+        thumbnails.forEach(function(thumbnail) {
+            // Add click event listener to each thumbnail
+            thumbnail.addEventListener('click', function() {
+                // Get the source of the clicked thumbnail
+                var newImageSrc = this.getAttribute('src');
+                // Update the source of the main image
+                mainImage.setAttribute('src', newImageSrc);
+            });
+        });
+    });
+</script>
 
 
 
