@@ -974,6 +974,66 @@
             <!-- Gallery End -->
 
 
+             <!-- Gallery Start -->
+<div class="section section-padding about-section">
+    <!-- Section Title Start -->
+    <div class="section-title text-center">
+        <h6 class="sub-title">Gallery</h6>
+
+        <div class="container">
+        <h2 class="title">Our Events Memories and Gallery</h2>
+
+        <p style="padding-top: 30px; padding-bottom: 40px;">The signing ceremony between Oproma Cosmetics, Glenmark Pharmaceuticals, and Sunshine Pharmaceuticals marks a significant milestone in the collaboration between these esteemed companies. This event symbolizes a 
+            strategic partnership aimed at leveraging each other's strengths to create synergies and drive mutual growth in the cosmetics and pharmaceutical industries.
+            During the ceremony, key representatives from each company come together to formalize the partnership through the signing of agreements and exchange of documents. 
+            This momentous occasion is often attended by top executives, stakeholders, government officials, and members of the press, highlighting the importance of the collaboration.</p>
+            </div>
+    </div>
+    <!-- Section Title End -->
+
+    <div class="gallery-container">
+        <!-- Main Displayed Image -->
+        <div class="main-image">
+            <img src="assets/images/gallery/slider/g-1.jpg" />
+        </div>
+
+        <!-- Thumbnail Images -->
+<div class="thumbnail-images">
+    <img src="assets/images/gallery/slider/g-2.jpg" class="thumbnail" id="thumbnail-1" />
+    <img src="assets/images/gallery/slider/g-3.jpg" class="thumbnail" id="thumbnail-2" />
+    <img src="assets/images/gallery/slider/g-4.jpg" class="thumbnail" id="thumbnail-3" />
+    <img src="assets/images/gallery/slider/g-5.jpg" class="thumbnail" id="thumbnail-4" />
+    <img src="assets/images/gallery/slider/g-6.jpg" class="thumbnail" id="thumbnail-5" />
+    <img src="assets/images/gallery/slider/g-7.jpg" class="thumbnail" id="thumbnail-6" />
+    <img src="assets/images/gallery/slider/g-8.jpg" class="thumbnail" id="thumbnail-3" />
+    <img src="assets/images/gallery/slider/g-9.jpg" class="thumbnail" id="thumbnail-4" />
+    <img src="assets/images/gallery/slider/g-10.jpg" class="thumbnail" id="thumbnail-5" />
+    <img src="assets/images/gallery/slider/g-11.jpg" class="thumbnail" id="thumbnail-6" />
+</div>
+
+    </div>
+</div>
+<!-- Gallery End -->
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // Get all thumbnail images
+        var thumbnails = document.querySelectorAll('.thumbnail');
+        // Get the main image container
+        var mainImage = document.querySelector('.main-image img');
+
+        // Loop through each thumbnail
+        thumbnails.forEach(function(thumbnail) {
+            // Add click event listener to each thumbnail
+            thumbnail.addEventListener('click', function() {
+                // Get the source of the clicked thumbnail
+                var newImageSrc = this.getAttribute('src');
+                // Update the source of the main image
+                mainImage.setAttribute('src', newImageSrc);
+            });
+        });
+    });
+</script>
 
 
 
