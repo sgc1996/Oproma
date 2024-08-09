@@ -4424,7 +4424,7 @@ select {
 .blog-details .details-images img {
   width: 80%;
   border-radius: 46px;
-  padding-left: 250px;
+
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .blog-details .details-images img {
